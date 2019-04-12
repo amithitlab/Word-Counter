@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<p></p>
+
+<form action= {% url 'secondpage1'  %} >
+
+<textarea  rows=20 cols=40 name='words1'></textarea>
+
+<br/>
+<br/>
+
+<input type="submit"  value="COUNT" />
+
+
+</form>
+
+
+
+{% endblock %}
